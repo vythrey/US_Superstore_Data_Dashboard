@@ -148,11 +148,6 @@ The analysis of the US Superstore dataset provided valuable insights into the bu
 - **Superstore Raw Data.xlsx**: Excel file containing the raw data used for analysis.
 
 
-### Files in the Repository
-
-- **Vythrey_Narayanam_US_Superstore_Analysis.pbix**: Power BI file containing the complete analysis and visualizations.
-- **Superstore Raw Data.xlsx**: Excel file containing the raw data used for analysis.
-
 ### How to Use
 
 1. Download the Power BI file (`.pbix`) and the raw data file (`.xlsx`).
