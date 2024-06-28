@@ -49,8 +49,8 @@ From this dataset, the following types of analyses can be performed:
    - Explore regional profit performance.
 
 3. **Demographic Analysis**:
-   - Acknowledging most active and most valuable customers based on the purchases and sales.
-   - Explore regional customer demographics and preferences.
+   - Acknowledging most active cities based on number of orders made.
+   - Studying the order priorities and the shipment modes for respective priorities.
    - Examine trend of orders made over time based on different customer segments.
 
 ## Steps Followed
@@ -76,10 +76,10 @@ From this dataset, the following types of analyses can be performed:
 1. **Creating Visualizations**:
     - Developed visualizations for Sales Analytics, Profit Analytics, and Demographic Analytics.
     - Used bookmarks and a navigation pane to help viewers navigate through the three segments of the report:
-        - **Sales Analytics**: Visualizations include bar charts, line charts, and pie charts to represent sales data.
-        - **Profit Analytics**: Visualizations include bar charts and pie charts to analyze profitability.
-        - **Demographic Analytics**: Visualizations include maps and bar charts to analyze customer demographics.
-    - Added slicers for regions and filters to provide insights into top sales, top profits, and the number of orders for different product categories and customer segments.
+        - **Sales Analytics**: Visualizations include bar charts, line charts, and donut charts to represent sales data.
+        - **Profit Analytics**: Visualizations include bar charts, line charts and donut charts to analyze profitability.
+        - **Demographic Analytics**: Visualizations include tree maps, line charts and bar charts to analyze customer demographics.
+    - Added slicers for regions, states or provinces and filters to provide insights into top sales, top profits, and the number of orders for different product categories and customer segments.
     - Analyzed trends for sales, profits, and the number of orders over the available period of data.
 
 2. **Customizing the Report**:
@@ -96,20 +96,20 @@ From this dataset, the following types of analyses can be performed:
 - **Visualization Techniques**:
   - Used bar charts to compare sales and profits across categories.
   - Employed line charts to show trends over time.
-  - Utilized pie charts to display the proportion of sales and profits by category.
+  - Utilized donut charts to display the proportion of sales and profits by category.
 
 ### Visual Examples
 
 Here are some screenshots of the key visualizations from the Power BI report:
 
 - **Sales Analytics Dashboard**:
-  ![Sales Analytics](https://github.com/vythrey/US_Superstore_Data_Dashboard/assets/153704808/c916c8f8-eb2b-4424-89d3-63012732208e)
+  ![Sales Analytics](https://github.com/vythrey/US_Superstore_Data_Dashboard/assets/153704808/b7de0975-48e9-4d90-9234-b42bf87a7f82)
 
 - **Profit Analytics Dashboard**:
-  ![Profit Analytics](https://github.com/vythrey/US_Superstore_Data_Dashboard/assets/153704808/a389a4e7-f462-49cb-96e8-e034a0fd9eb5)
+  ![Profit Analytics](https://github.com/vythrey/US_Superstore_Data_Dashboard/assets/153704808/a525a33b-ec7d-4b88-85b9-760a2789acf4)
 
 - **Demographic Analytics Dashboard**:
-  ![Demographic Analytics](https://github.com/vythrey/US_Superstore_Data_Dashboard/assets/153704808/00c6081c-748e-4404-8e86-71970f499f4d)
+  ![Demographic Analytics](https://github.com/vythrey/US_Superstore_Data_Dashboard/assets/153704808/7aac2bf2-5087-4254-ae9a-27a044927773)
 
 ## Results
 
@@ -123,12 +123,11 @@ The analysis provided the following key insights:
 - **Profit Analytics**:
     - Determined the most  profitable products and high profit making customer segments.
     - Recognized seasonal profit trends and peak profit periods.
-    - Analyzed profit margins across different regions and customer segments.
-
+      
 - **Demographic Insights**:
     - Analyzed customer segments to understand buying patterns and preferences.
     - Explored regional customer demographics and preferences.
-    - Identified key customer segments that contribute significantly to sales and profits.
+    - Identified key customer segments that contribute significantly to orders.
 
 ## Conclusion
 
